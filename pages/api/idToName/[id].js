@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     runMiddleware(req, res, cors)
 
     const { id } = req.query
-    const fetchres = await fetch(`https://www.youtube.com/channel/${id}`)
+    const fetchres = await fetch(`https://www.youtube.com/channel/${id}/about`)
     
     if(fetchres.status !== 200){
         res.send("error")          

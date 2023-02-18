@@ -18,6 +18,8 @@ export default function Home() {
           </div>
           
         </div>
+        <br/>
+        <button onClick={()=>{location.href = "https://github.com/yakisova41/yt-returnname-api"}}>ソースコード(Github)</button>
       </main>
     </>
   )

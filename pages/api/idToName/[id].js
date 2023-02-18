@@ -1,5 +1,4 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { Innertube } from 'youtubei.js';
 import Cors from 'cors'
 import { parse } from 'node-html-parser';
 
@@ -27,13 +26,13 @@ export default async function handler(req, res) {
     runMiddleware(req, res, cors)
 
     const { id } = req.query
-    const fetchres = await fetch(`https://www.youtube.com/channel/${id}/about`)
+    const response = await fetch(`https://www.youtube.com/channel/${id}/about`)
     
-    if(fetchres.status !== 200){
+    if(response.status !== 200){
         res.send("error")          
     }
     else{
-        fetchres.text()
+        response.text()
         .then(text =>{
             const parser = parse(text)
             const title = parser.querySelector('title')

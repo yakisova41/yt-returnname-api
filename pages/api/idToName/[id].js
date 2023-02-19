@@ -28,11 +28,9 @@ export default async function handler(req, res) {
     const response = await fetch(`https://www.youtube.com/youtubei/v1/browse?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8&prettyPrint=false`, {
         method:"POST",
         headers:{
-
             "accept": "*/*",
             "accept-encoding": "gzip, deflate, br",
             "accept-language": "ja",
-            "content-length": 2235,
             "content-type": "application/json",
             "cookie": `GPS=1; YSC=sHEZ9k4QSS0; DEVICE_INFO=ChxOekl3TVRnNE9URTJNekk1TURJMU1qSTRNQT09EImAyZ8GGImAyZ8G; VISITOR_INFO1_LIVE=l_1q5weHuiE; PREF=f6=40000000&tz=Asia.Tokyo; ST-o2eza2=itct=CBQQ8JMBGAciEwjNqtCN86H9AhXnm1YBHbQhCBY%3D&csn=MC45NjQ2NTUxNjY1OTY0NjI0&endpoint=%7B%22clickTrackingParams%22%3A%22CBQQ8JMBGAciEwjNqtCN86H9AhXnm1YBHbQhCBY%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2F%40rem6101%2Fchannels%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_CHANNEL%22%2C%22rootVe%22%3A3611%2C%22apiUrl%22%3A%22%2Fyoutubei%2Fv1%2Fbrowse%22%7D%7D%2C%22browseEndpoint%22%3A%7B%22browseId%22%3A%22${id}%22%2C%22params%22%3A%22EghjaGFubmVsc_IGBAoCUgA%253D%22%2C%22canonicalBaseUrl%22%3A%22%2F%40rem6101%22%7D%7D`,
             "dnt":1,

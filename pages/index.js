@@ -9,17 +9,17 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>yt returnname api</h1>
-        <p className={styles.about}>YouTubeのchannelId(https://www.youtube.com/channel/xxxxxxxxxx)から名前を取得するAPIです。</p>
+        <p className={styles.about}>API to get the name from YouTube channelId (https://www.youtube.com/channel/xxxxxxxxxx).</p>
 
         <div className={styles.endpoint}>
-          <span>エンドポイント</span>
+          <span>Endpoint(Vercel)</span>
           <div className={styles.endpointurl}>
             {"https://yt-returnname-api.vercel.app/api/idToName/{channelId}"}
           </div>
           
         </div>
         <br/>
-        <button onClick={()=>{location.href = "https://github.com/yakisova41/yt-returnname-api"}}>ソースコード(Github)</button>
+        <button onClick={()=>{location.href = "https://github.com/yakisova41/yt-returnname-api"}}>SourceCode(Github)</button>
       </main>
     </>
   )

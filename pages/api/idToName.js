@@ -1,30 +1,13 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import Cors from 'cors'
-
-const cors = Cors({
-    methods: ['POST', 'GET', 'HEAD'],
-})
-
-function runMiddleware(
-    req,
-    res,
-    fn
-) {
-    return new Promise((resolve, reject) => {
-        fn(req, res, (result) => {
-            if (result instanceof Error) {
-            return reject(result)
-            }
-
-            return resolve(result)
-        })
-    })
+export const config = {
+    runtime: 'edge',
 }
 
 export default async function handler(req, res) {
-    runMiddleware(req, res, cors)
 
-    const { id } = req.query
+    const { searchParams } = new URL(req.url)
+    const id = searchParams.get("id")
+
     const response = await fetch(`https://www.youtube.com/youtubei/v1/browse?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8&prettyPrint=false`, {
         method:"POST",
         headers:{
@@ -59,11 +42,18 @@ export default async function handler(req, res) {
         body:JSON.stringify({"context":{"client":{"hl":"ja","gl":"JP","remoteHost":"2404:7a85:2080:4200:e1c0:b52a:99db:ff9a","deviceMake":"","deviceModel":"","visitorData":"Cgs5aHR0b0xBdHdrZyjM_sifBg%3D%3D","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36,gzip(gfe)","clientName":"WEB","clientVersion":"2.20230217.01.00","osName":"Windows","osVersion":"10.0","originalUrl":"https://www.youtube.com/@rem6101/channels","platform":"DESKTOP","clientFormFactor":"UNKNOWN_FORM_FACTOR","configInfo":{"appInstallData":"CMz-yJ8GEIfdrgUQ_u6uBRCJ6K4FEKLsrgUQ5_euBRDa6a4FEKSArwUQzN-uBRC2nP4SEILdrgUQtuCuBRDM9a4FEOLUrgUQoaf-EhCxpP4SEOWg_hIQlPiuBRC41K4FELiLrgUQ1qn-EhCR-PwS"},"userInterfaceTheme":"USER_INTERFACE_THEME_DARK","timeZone":"Asia/Tokyo","browserName":"Chrome","browserVersion":"110.0.0.0","acceptHeader":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","deviceExperimentId":"ChxOekU0TmprNE5EZzJOamd4TkRRMk9ESXhOQT09EMz-yJ8GGKiZ9Z0G","screenWidthPoints":599,"screenHeightPoints":937,"screenPixelDensity":1,"screenDensityFloat":1,"utcOffsetMinutes":540,"memoryTotalKbytes":"8000000","mainAppWebInfo":{"graftUrl":"/@rem6101/channels","pwaInstallabilityStatus":"PWA_INSTALLABILITY_STATUS_CAN_BE_INSTALLED","webDisplayMode":"WEB_DISPLAY_MODE_BROWSER","isWebNativeShareAvailable":true}},"user":{"lockedSafetyMode":false},"request":{"useSsl":true,"internalExperimentFlags":[],"consistencyTokenJars":[]},"clickTracking":{"clickTrackingParams":"CCgQ8JMBGAgiEwiW5Pey8qH9AhVVSA8CHUHLAGc="},"adSignalsInfo":{"params":[{"key":"dt","value":"1676820301790"},{"key":"flash","value":"0"},{"key":"frm","value":"0"},{"key":"u_tz","value":"540"},{"key":"u_his","value":"1"},{"key":"u_h","value":"1080"},{"key":"u_w","value":"1920"},{"key":"u_ah","value":"1040"},{"key":"u_aw","value":"1920"},{"key":"u_cd","value":"24"},{"key":"bc","value":"31"},{"key":"bih","value":"937"},{"key":"biw","value":"582"},{"key":"brdim","value":"-1920,0,-1920,0,1920,0,1920,1040,599,937"},{"key":"vis","value":"1"},{"key":"wgl","value":"true"},{"key":"ca_type","value":"image"}]}},"browseId":id,"params":"EghjaGFubmVsc_IGBAoCUgA%3D"})
     })
     
-
-    response.text()
+    
+    return response.text()
     .then(text =>{
         const data = JSON.parse(text)
-        res.send(data["header"]["c4TabbedHeaderRenderer"]["title"])
+        const name = data["header"]["c4TabbedHeaderRenderer"]["title"]
+
+        return new Response(name, {
+            status: 200,
+            headers: {
+                "content-type":"text/plain"
+            }
+        })
     })        
       
 }

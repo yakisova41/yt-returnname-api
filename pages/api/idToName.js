@@ -51,7 +51,8 @@ export default async function handler(req, res) {
         return new Response(name, {
             status: 200,
             headers: {
-                "content-type":"text/plain"
+                "content-type":"text/plain; charset=UTF-8",
+                "Access-Control-Allow-Origin":"*"
             }
         })
     })        

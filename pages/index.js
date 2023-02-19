@@ -14,7 +14,12 @@ export default function Home() {
         <div className={styles.endpoint}>
           <span>Endpoint(Vercel)</span>
           <div className={styles.endpointurl}>
-            {"https://yt-returnname-api.vercel.app/api/idToName/{channelId}"}
+            {"https://yt-returnname-api.vercel.app/api/idToName?id={channelId}"}
+          </div>
+          <br/>
+          <span>Endpoint(Cloudflare pages)</span>
+          <div className={styles.endpointurl}>
+            {"https://yt-returnname-api.pages.dev/api/idToName?id={channelId}"}
           </div>
           
         </div>

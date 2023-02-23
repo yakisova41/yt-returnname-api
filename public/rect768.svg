@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1265"
+   height="395"
+   viewBox="0 0 334.69791 104.51042"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="rect768.svg"
+   inkscape:export-filename="screenshot1.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.37282197"
+     inkscape:cx="564.61265"
+     inkscape:cy="215.92075"
+     inkscape:window-width="1409"
+     inkscape:window-height="1010"
+     inkscape:window-x="630"
+     inkscape:window-y="66"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3672"
+       x="-0.040834274"
+       y="-0.093232242"
+       width="1.0816685"
+       height="1.2000608">
+      <feFlood
+         flood-opacity="0.313726"
+         flood-color="rgb(15,15,15)"
+         result="flood"
+         id="feFlood3662" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3664" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3.11526"
+         result="blur"
+         id="feGaussianBlur3666" />
+      <feOffset
+         dx="0"
+         dy="1.09034"
+         result="offset"
+         id="feOffset3668" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3670" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3672-8"
+       x="-0.040834274"
+       y="-0.093232242"
+       width="1.0816685"
+       height="1.2000608">
+      <feFlood
+         flood-opacity="0.313726"
+         flood-color="rgb(15,15,15)"
+         result="flood"
+         id="feFlood3662-0" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3664-5" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3.11526"
+         result="blur"
+         id="feGaussianBlur3666-5" />
+      <feOffset
+         dx="0"
+         dy="1.09034"
+         result="offset"
+         id="feOffset3668-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3670-2" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="font-variation-settings:'wght' 700;fill:#ffffff;stroke-width:0.612;stroke-linecap:square;paint-order:stroke fill markers;filter:url(#filter3672)"
+       id="rect768"
+       width="183.09677"
+       height="80.193542"
+       x="7.4766235"
+       y="68.129036"
+       ry="3.9032259"
+       transform="matrix(0.8154588,0,0,0.86330785,0.70967744,-52.741254)"
+       inkscape:export-filename="rect768.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="font-variation-settings:'wght' 700;fill:#e6e6e6;stroke-width:1.39423;stroke-linecap:square;paint-order:stroke fill markers"
+       id="path234"
+       cx="27.377628"
+       cy="27.75614"
+       r="13.405447" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.4782px;font-family:Jost;-inkscape-font-specification:'Jost, @wght=311';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 311;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.967052;stroke-linecap:square;paint-order:stroke fill markers"
+       x="90.979576"
+       y="27.483709"
+       id="text450"><tspan
+         sodipodi:role="line"
+         id="tspan448"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.4782px;font-family:Jost;-inkscape-font-specification:'Jost, @wght=311';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 311;fill:#000000;stroke-width:0.967052"
+         x="90.979576"
+         y="27.483709">@user-xxxxxxxxxx</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.4782px;font-family:Jost;-inkscape-font-specification:'Jost, @wght=311';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 311;fill:#000000;stroke-width:0.967052"
+         x="90.979576"
+         y="40.581455"
+         id="tspan452" /></text>
+    <rect
+       style="font-variation-settings:'wght' 700;fill:#e6e6e6;stroke-width:0.499869;stroke-linecap:square;paint-order:stroke fill markers"
+       id="rect608"
+       width="92.78952"
+       height="7.8064518"
+       x="51.105854"
+       y="36.102451"
+       ry="3.9032259" />
+    <rect
+       style="font-variation-settings:'wght' 700;fill:#e6e6e6;stroke-width:0.499869;stroke-linecap:square;paint-order:stroke fill markers"
+       id="rect766"
+       width="92.78952"
+       height="7.8064518"
+       x="51.105854"
+       y="52.255207"
+       ry="3.9032259" />
+    <rect
+       style="font-variation-settings:'wght' 700;fill:#ffffff;stroke-width:0.612;stroke-linecap:square;paint-order:stroke fill markers;filter:url(#filter3672-8)"
+       id="rect768-2"
+       width="183.09677"
+       height="80.193542"
+       x="7.4766235"
+       y="68.129036"
+       ry="3.9032259"
+       transform="matrix(0.8154588,0,0,0.86330785,173.96251,-52.741265)" />
+    <circle
+       style="font-variation-settings:'wght' 700;fill:#e6e6e6;stroke-width:1.39423;stroke-linecap:square;paint-order:stroke fill markers"
+       id="path234-1"
+       cx="200.63045"
+       cy="27.756117"
+       r="13.405447" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.4782px;font-family:Jost;-inkscape-font-specification:'Jost, @wght=299';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 299;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.967052;stroke-linecap:square;paint-order:stroke fill markers"
+       x="241.87755"
+       y="27.557043"
+       id="text450-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.4782px;font-family:Jost;-inkscape-font-specification:'Jost, @wght=299';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 299;fill:#000000;stroke-width:0.967052"
+         x="241.87755"
+         y="27.557043"
+         id="tspan452-2">username</tspan></text>
+    <rect
+       style="font-variation-settings:'wght' 700;fill:#e6e6e6;stroke-width:0.499869;stroke-linecap:square;paint-order:stroke fill markers"
+       id="rect608-0"
+       width="92.78952"
+       height="7.8064518"
+       x="224.35867"
+       y="36.102436"
+       ry="3.9032259" />
+    <rect
+       style="font-variation-settings:'wght' 700;fill:#e6e6e6;stroke-width:0.499869;stroke-linecap:square;paint-order:stroke fill markers"
+       id="rect766-5"
+       width="92.78952"
+       height="7.8064518"
+       x="224.35867"
+       y="52.255207"
+       ry="3.9032259" />
+    <rect
+       style="font-variation-settings:'wght' 700;fill:#ff1a1a;fill-opacity:1;stroke-width:0.817866;stroke-linecap:square;paint-order:stroke fill markers"
+       id="rect4269"
+       width="131.47934"
+       height="3.3976586"
+       x="101.46464"
+       y="100.65659"
+       ry="0" />
+    <path
+       style="font-variation-settings:'wght' 700;fill:#ff1a1a;fill-opacity:1;stroke-width:0.612;stroke-linecap:square;paint-order:stroke fill markers"
+       d="m 239.31078,102.35542 -17.65509,-12.597111 0.083,14.295941 h 17.5721 z"
+       id="path4403" />
+  </g>
+</svg>

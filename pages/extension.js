@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Extension.module.css'
 import Image from 'next/image'
 
 export default function extension(){
@@ -28,7 +28,7 @@ export default function extension(){
                 <div className={styles.aboutContainer}>
                     <h2>What is This?</h2>
                     <br/>
-                    <Image src="/rect768.png" width={1265} height={395} className={styles.promoimg}/>
+                    <Image src="/rect768.svg" width={1265} height={395} className={styles.promoimg}/>
                     <br/>
                     <p className={styles.abouttext}>
                     YouTube changed the name of the comments section in a recent update to Handle, an id that starts with @.

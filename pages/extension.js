@@ -16,7 +16,7 @@ export default function extension(){
                     <br/>
                     <div className={styles.buttons}>
                         <button className={styles.button} onClick={()=>{location.href="https://greasyfork.org/ja/scripts/460361-return-youtube-comment-username"}}>UserScript(Greasyfork)</button>
-                        <button className={styles.button} onClick={()=>{location.href="#"}}>ChromeExtension(comingsoon)</button>
+                        <button className={styles.button} onClick={()=>{location.href="https://chrome.google.com/webstore/detail/return-youtube-comment-us/kamibelompadnaekbellinmgbphoidmj"}}>ChromeExtension</button>
                     </div>
                     <br/>
                     <button className={styles.button} onClick={()=>{location.href="https://github.com/yakisova41/return-youtube-comment-username"}}>SourceCode(Github)</button>

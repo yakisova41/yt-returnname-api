@@ -12,19 +12,10 @@ export default function Home() {
         <p className={styles.about}>API to get the name from YouTube channelId (https://www.youtube.com/channel/xxxxxxxxxx).</p>
 
         <div className={styles.endpoint}>
-          <span>Endpoint(Vercel)</span>
-          <div className={styles.endpointurl}>
-            {"https://yt-returnname-api.vercel.app/api/idToName?id={channelId}"}
-          </div>
-          <br/>
-          <span>Endpoint(Cloudflare pages)</span>
-          <div className={styles.endpointurl}>
-            {"https://yt-returnname-api.pages.dev/api/idToName?id={channelId}"}
-          </div>
+          <p>End of provision</p>
           
         </div>
-        <br/>
-        <button onClick={()=>{location.href = "https://github.com/yakisova41/yt-returnname-api"}}>SourceCode(Github)</button>
+        
       </main>
     </>
   )
